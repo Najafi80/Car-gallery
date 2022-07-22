@@ -1,0 +1,238 @@
+@font-face {
+    font-family: 'vazir';
+    src: url(../fonts/vazir.eot) format('eot');
+    src: url(../fonts/vazir.ttf) format('ttf');
+    src: url(../fonts/vazir.woff) format('woff');
+    src: url(../fonts/vazir.woff2) format('woff2');
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'vazir' !important;
+    box-sizing: border-box;
+    direction: rtl;
+    scroll-behavior: smooth;
+    text-decoration: none;
+    list-style: none;
+}
+
+
+.s1{
+    background: url('../images/1.jpg');
+    background-size: cover;
+}
+
+
+.s2{
+    background: url('../images/2.jpg');
+    background-size: cover;
+}
+
+.s3{
+    background: url('../images/3.jpg');
+    background-size: cover;
+}
+
+.s4{
+    background: url('../images/4.jpg');
+    background-size: cover;
+}
+
+.s5{
+    background: #000;
+}
+
+#fp-nav ul li a span,.fp-slidesNav ul li a span{
+    background-color: #fff !important;
+}  
+
+#fp-nav ul li a.active span{
+    background-color: #f00 !important;
+}
+
+.s1 h1{
+    color: #fff;
+    font-size: 50px;
+    display: flex;
+    justify-content: flex-end;
+    margin: -250px 0 0 100px
+}
+
+.s1 h1 span{
+    margin-right: 10px;
+    color: darkorange;
+}
+
+.fp-controlArrow.fp-prev{
+    margin-top: 200px;
+    border-width: 20px 20px 20px !important;
+}
+
+.fp-controlArrow.fp-next{
+    margin-top: 200px;
+    right: 1250px !important;
+    border-width: 20px 20px 20px !important;
+
+    
+}
+
+.khadamat{
+    margin: auto;
+    margin-top: -65px;
+    display: flex;
+    width: 50%;
+    justify-content: center;
+    flex-wrap: wrap;
+    opacity: .8;
+    
+}
+
+.khadamat div{
+    background-color: #fff;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 30px 60px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 35%;
+    transition: all .4s;
+}
+
+.khadamat div:hover{
+    transform: scale(1.06,1.06);
+    cursor: pointer;
+}
+
+.khadamat div svg{
+    font-size: 110px;
+    margin-bottom: 20px;
+}
+
+.s2 h1,.s3 h1{
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    color: #fff;
+    margin-bottom: 100px;
+}
+
+.s2 h1 span,.s3 h1 span{
+    color: darkorange ;
+    margin-right: 10px;
+}
+
+
+.mashinha{
+    margin: auto;
+    margin-top: -65px;
+    display: flex;
+    width: 50%;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.mashinha div{
+    background-color: rgb(255, 255, 255,.8);
+    border-radius: 5px;
+    margin: 10px;
+    padding: 10px 60px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 35%;
+    transition: all .4s;
+}
+
+.mashinha div:hover{
+    transform: scale(1.06,1.06);
+    cursor: pointer;
+}
+
+
+.mashinha div img{
+    width: 190%;
+    margin-bottom: 15px;
+}
+
+.s4 form{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: auto;
+    padding: 10px;
+    height: 500px;
+}
+
+.s4 form input{
+    height: 50px;
+}
+
+.s4 form button{
+    height: 50px;
+    background-color: #f00;
+    color: #fff;
+    cursor: pointer;
+    border: none;
+    font-size: 20px;
+    transition: all .3s ease-in;
+}
+
+.s4 form button:hover{
+    transform: scale(1.02,1.02);
+    font-size: 20.4;
+}
+
+.s4 form input,.s4 form textarea{
+    background-color: hsl(0, 0%, 0%,.85);
+    color: #fff;
+    text-align: center;
+    border: 3px solid rgb(29, 28, 28);
+    font-size: 20px;
+}
+
+.s4 form input:focus ,.s4 form textarea:focus{
+    outline: none;
+}
+
+.s5{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+}
+.s5 h2{
+    text-align: center;
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+.s5 p{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    color: #fff;
+    margin-bottom: 50px;
+}
+
+.s5 h3{
+    text-align: center;
+    color: #fff;
+    margin-bottom: 30px;
+}
+
+
+.s5 .end_cars{
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    justify-content: center;
+}
+
+.S5 .end_cars img{
+    width: 22%;
+    margin: 5px;
+}
